@@ -2,6 +2,18 @@
 
 This is the Rails backend API for the Pokemon fullstack application.
 
+## If you have Docker installed please run the following commands:
+
+1. Build the Docker image:
+   ```bash
+   docker build -t app .
+   ```
+
+2. Start the Docker container:
+   ```bash
+   docker run -p 3000:3000 app
+   ```
+
 ## Setup
 
 1. Install dependencies:

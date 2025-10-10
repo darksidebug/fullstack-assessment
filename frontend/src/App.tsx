@@ -1,10 +1,9 @@
-import './App.css';
+import PokemonLists from './components/PokemonLists';
+import './index.css';
 
 function App() {
   return (
-    <div>
-      Start here
-    </div>
+    <PokemonLists />
   );
 }
 
